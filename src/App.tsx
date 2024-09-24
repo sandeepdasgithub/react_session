@@ -9,7 +9,8 @@ const App: React.FC = () => {
     { id: 3, name: 'sankar', email: 'sankar@gmail.com' },
     { id: 4, name: 'Sandeep', email: 'Sandeep@gmail.com' },
     { id: 5, name: 'Avijeet', email: 'Avijeet@gmail.com' },
-    { id: 6, name: 'soumya', email: 'soumya@gmail.com' }
+    { id: 6, name: 'soumya', email: 'soumya@gmail.com' },
+    { id: 7, name: 'prabhu', email: 'prabhu@gmail.com' }
   ];
 
   return (
