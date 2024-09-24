@@ -3,6 +3,7 @@ import DataTable from './components/DataTable';
 import { User } from './interfaces/user';
 
 const App: React.FC = () => {
+  console.log('App running on port: ', process.env.PORT);
   const users: User[] = [
     { id: 1, name: 'Rakesh', email: 'Rakesh@gmail.com' },
     { id: 2, name: 'prakash', email: 'prakash@gmail.com' },
