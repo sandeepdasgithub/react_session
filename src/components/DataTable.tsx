@@ -13,7 +13,7 @@ const DataTable: React.FC<Data> = ({ users }) => {
     <Container fluid="md">
     <Row>
         <Col> 
-            <Table striped bordered hover size="sm" className='text-center'> 
+            <Table striped bordered hover responsive="sm" className='text-center'> 
                 <thead>
                     <tr>
                     <th>ID</th>
